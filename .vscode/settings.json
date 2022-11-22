@@ -1,0 +1,14 @@
+{
+    "calva.customREPLCommandSnippets": [
+        {
+            "name": "Open in Clerk",
+            "key": "d",
+            "snippet": "(require '[nextjournal.clerk :refer [show!]]) (show! \"$file\")"
+        },
+        {
+            "name": "Start Clerk",
+            "key": "s",
+            "snippet": "(require '[nextjournal.clerk :refer [serve!]])  (serve! {:port 3778 :watch-paths [\"advent\"]})"
+        }
+    ],
+}
