@@ -4,7 +4,7 @@
 (ns day1
   (:require [clojure.string :as str]))
 
-(def file-input (str/split (slurp "./advent/1.txt") #"\n"))
+(def file-input (str/split (slurp "./advent/data/1.txt") #"\n"))
 
 (def file-nums (for [num file-input]
                  (Integer/parseInt num)))
